@@ -22,8 +22,10 @@ Câu  3: Hãy nêu ý nghĩa 3 trạng thái của file trong git (3 stages in g
 Modified:  Kho lưu trữ từ xa là bản sao cục bộ (bản sao bạn tạo trên máy cục bộ của mình) của dự án gốc đang được duy trì qua Git.  
 Vì vậy, về cơ bản bạn có thể thực hiện các thay đổi đối với bản sao dự án của mình mà không cản trở mã gốc. 
 Điều này được gọi là Sửa đổi, tức là thực hiện một số bổ sung cho dự án ban đầu.
+
 Staged: Là bạn đã đánh dấu sẽ commit phiên bản hiện tại của một tập tin đã chỉnh sửa trong lần commit sắp tới.  Sẵn sàng để được đưa lên git 
 Trạng thái này xảy ra khi bạn sử dụng lệnh git add <file_name> nhưng chưa commit. 
+
 Commit: cam kết. Như việc ký tên chứng minh bạn đã làm gì với file này 
 Tông quan quá trình này  giống như việc chay đua gồm ba phần (Chuẩn bị , sẵn sàng và  chạy )
 
