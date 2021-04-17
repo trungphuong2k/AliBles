@@ -4,7 +4,7 @@ Giả sử, nếu xoá hoặc di chuyển folder này sang 1 thư mục khác th
 	-Tác dụng của file này như một đường dẫn(con trỏ) từ máy cá nhân đến repo trên github
 	
 		
-		hook : thư mục này chứa các tập lệnh được thực thi tại một số thời điểm nhất định khi làm việc với Git,  Toàn bộ một loạt các bài viết sẽ đến về hook. 
+		hook : thư mục này chứa các tập lệnh được thực thi tại một số thời điểm nhất định khi làm việc với Git 
 		info : (cái này em không rõ ạ )
 		log : Chứa lịch sử cho các chi nhánh khác nhau
 		refs: Là  các kho lưu trữ, thẻ, các nhánh theo dõi từ xa hoặc các nhánh cục bộ.
@@ -17,11 +17,13 @@ Giả sử, nếu xoá hoặc di chuyển folder này sang 1 thư mục khác th
 
 		descreption : (không hiểu ạ) 
 	
-		HEAD: Tham chiếu hiện tại mà bạn đang xem thường là nhánh  master 
+		HEAD:chứa nhánh hiện hai  
 
 	
-	-Nếu xóa hoặc chuyển  folder này sang 1 thư mục hoặc folder khác thì khi Git Bash Here ở folder ko có .git , git sẽ ko biết phải dẫn file này đi đâu cả 
-	 khi git add . nó sẽ hiện : fatal: not a git repository (or any of the parent directories): .git ( có thể  hiểu : là không có bố mẹ dẫn đường nên là ko biết đi đâu cả) 
+	-Nếu  chuyển  folder này sang 1 thư mục hoặc folder khác thì khi Git Bash Here ở folder ko có .git ,
+	git sẽ ko biết phải dẫn file này đi đâu cả.khi git add . nó sẽ hiện : fatal: not a git repository (or any of the parent directories): .git 
+	( có thể  hiểu : là không có bố mẹ dẫn đường nên là ko biết đi đâu cả) 
+	-Nếu xóa  thì nó sẽ không bị quản lí bởi git nữa 
 
 	- Vì nó không có .git như con trỏ giúp   kết nối giữa máy cá nhân và github 
 
