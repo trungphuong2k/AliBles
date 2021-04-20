@@ -17,7 +17,7 @@ Giả sử, nếu xoá hoặc di chuyển folder này sang 1 thư mục khác th
 
 		descreption : (không hiểu ạ) 
 	
-		HEAD:chứa nhánh hiện hai  
+		HEAD:chứa nhánh hiện tại   
 
 	
 	-Nếu  chuyển  folder này sang 1 thư mục hoặc folder khác thì khi Git Bash Here ở folder ko có .git ,
