@@ -1,4 +1,3 @@
  git commit-a :   
 	+ commit toàn bộ  thay đổi của các tracked file , nếu file chưa được tracked thì sẽ không care
 	+auto đưa các các tracked file vào chế độ stage và chạy commit 
-	
