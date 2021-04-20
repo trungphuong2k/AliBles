@@ -1,0 +1,2 @@
+ git commit-a :   
+	Giúp commit các thay đổi của các  tracked file  ,nếu tạo		file mới chưa được tracked thì sẽ báo là đó là untracked 	        file và phải thực hiện git add file đó vào trước khi muốn 	commit   
