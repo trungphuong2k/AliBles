@@ -1,0 +1,11 @@
+Phân biệt sự khác nhau giữa "git switch" và "git checkout"
+
+	+Giống nhau : đều dùng để chuyển sang nhánh mới từ nhánh hiện tai 
+		Các lênh : Git checkout  <Tên nhánh mới>:chuyển sang nhánh mới 
+			   Git checkout  -b <Tên nhánh mới>: tạo và chuyển sang nhánh mới 
+			   Git switch  <Tên nhánh mới>:chuyển sang nhánh mới 
+			   Git switch -c<Tên nhánh mới>: tạo và chuyển sang nhánh mới 
+
+	+ Khác Nhau :
+			+ Git check out: Có thể khôi phục lại working tree file  và phổ biến hơn git switch 
+				 

@@ -1,4 +1,5 @@
 Git Branch:
+	
 	-Một project lớn thì thường được chia làm nhiều thành phần nhỏ cho các thành viên  và sau đó gộp lại. 
 	Khi gộp các phần nhỏ vào project không phải lúc nào cũng chạy được mà phải chia thành các branch để kiểm tra 
 	xem đã đúng chưa rồi mới gộp vào main branch 
