@@ -1,0 +1,161 @@
+h1{
+    position: absolute;
+width: 105px;
+height: 19px;
+left: 913px;
+top: 232px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+
+color: #2D3748;
+}
+h2{
+    position: absolute;
+    width: 292px;
+height: 35px;
+left: 913px;
+top: 253px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+
+/* 900 */
+
+color: #1A202C;
+
+}
+.user {
+    height: 50px;
+    width: 350px;
+    left: 0px;
+    top: 30px;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 60%;
+    right: 50%;
+    top: 44%;
+    bottom: 91.16%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.pass{
+    height: 50px;
+    width: 350px;
+    left: 0px;
+    top: 121px;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 60%;
+    right: 50%;
+    top: 50%;
+    bottom: 91.16%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* 700 */
+
+    color: #4A5568
+}
+.checkbox{
+     
+    position: absolute;
+    left: 60%;
+    right: 50%;
+    top: 55%;
+    bottom: 91.16%;
+
+    background: #F7FAFC;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+
+}
+#ForgotPassword{
+    height: 16px;
+    width: 112px;
+    left: 237px;
+    top: 199px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 70%;
+    right: 50%;
+    top: 55%;
+    bottom: 91.16%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* 800 */
+
+    color: #2C5282;
+}
+#Login{
+    height: 19px;
+    width: 74px;
+    left: 137px;
+    top: 15px;
+    border-radius: nullpx;
+
+    position: absolute;
+    left: 67.71%;
+    right: 0.29%;
+    top: 90%;
+    bottom: 0%;
+
+    background: #04C45C;
+    border-radius: 5px;
+}
+#Signin{
+    height: 50px;
+    width: 347px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    position: absolute;
+    left: 67.71%;
+    right: 0.29%;
+    top: 95%;
+    bottom: 0%;
+
+    /* 800 */
+
+    background: #2D3748;
+    border-radius: 5px;
+}
+.Link{
+    position: absolute;
+width: 272px;
+height: 19px;
+left: 952px;
+top: 831px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #616161;
+}
