@@ -1,0 +1,26 @@
+Viết một bài tìm hiểu về 3 tùy chọn merge : "create a merge commit", "Squash and merge", "Rebase and merge" khi thực hiện merge pull request trên github
+
+
+  1. "Creat a merge commit":
+      Là lựa chọn mặc định khi merge pull request
+      Tất cả các commit từ nhánh hiện tại sẽ được thêm vào nhánh chính cùng với 1 commit mới (1 merge commit)
+      Để merge pull request, cần phải có quyền write trong repo
+      Sử dụng --no-ff option
+  2. "Squash and merge":
+      Gần giống với rebasing a branch
+      Tất cả các commit trên nhánh feature được thu gọn trong 1 commit duy nhất và được merge vào nhánh mặc định => Lịch sử commit gọn hơn
+      Tuy nhiên các commit sẽ bị rút gọn và khá khó để kiểm tra lại vì vậy trước khi thực hiện Confirm Squash and merge ta có thể chọn vào  text box conveniently 
+      trên github để viết  lại commit chi tiết hơn  
+      Để merge pull request, cần phải có quyền write trên repo và repo phải cho phép squash merging
+      Sử dụng fast-forward option
+  3. "Rebase and merge":
+      	Rebase thì gần giống với merge ở việc giải quyết vấn đề merge .Giả sử nhóm A checkout từ master sang 1 nhánh là branhA và 1 nhóm B khác cũng 
+	checkout từ nhánh master branchB .Sau 1 thời gian có B các commit mới trên master và A phải cập nhập từ master về , nếu việc cập nhập liên tục từ 
+	mater về A như  vậy thì lịch sử commit sẽ khá loạn ở branchA . Để giải quyến vấn đề này thì ta có 1 cách là dùng rebase nó sẽ đưa nhánh feature 
+	trên master.
+	Bước đầu tiên để làm việc với git rebase là phải đảm bảo mỗi feature có một branch tương ứng
+        Khi gọi git rebase chúng ta có 2 lựa chọn:  (develope , master )hoặc là đưa về một thời điểm trong quá khứ
+
+      	+ Master :thích hợp cho sưả chữa các hot fix
+	-Đưa về 1 thời điểm commit trong quá khứ: git rebase -i HEAD~<number>
+	Number :thời điểm quá khứ tính từ hiện tại
