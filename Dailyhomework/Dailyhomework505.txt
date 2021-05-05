@@ -1,12 +1,12 @@
 Bài tóm tắt về OOP theo 5W1H
 1. What?
    - OOP là gì?
-	OOP ( Object Oriented Programming) - việc tạo các đối tượng chứa cả dữ liệu và phương thức.
+	OOP ( Object Oriented Programming) - là việc trừu tượng hóa đối tượng (miêu tả các đối tượng thực tế bằng các thuộc tính có thể biểu diễn bằng ngôn ngữ máy )  
 	Đối tượng (Object) gồm 2 thành phần chính:
 		Thuộc tính: những thông tin, đặc điểm của đối tượng
 		Phương thức: những hành vi mà đối tượng có thể thực hiện
 	Class : những đối tượng có những đặc tính tương tự nhau được tập hợp thành 1 lớp
-   - OOP có những đặc tính gì?
+   - Nguyên lí cơ bản của OOP 
 	Tính kế thừa 
 	Tính đóng gói
 	Tính trừu tượng
@@ -15,12 +15,13 @@ Bài tóm tắt về OOP theo 5W1H
 2. Why?
    	- Sử dụng để tăng năng suất code của phần mềm
 	- Giảm những phần giống nhay trong code
-	- Giúp dễ quản lí code và mở rộng các tính năng phần mềm  vì các cấu trúc của modul rõ ràng 
+	- Giúp dễ quản lí code và mở rộng các tính năng phần mềm  vì các cấu trúc của modul rõ ràng
+	- Vân vân  
 
 
 
 3. Where?
-   -Java, C++, PHP, Python, JavaScript, .NET
+   Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python… đều hỗ trợ OOP.
 4. Who?
        Các lập trình viên hầu hêt phải nắm vững khái niệm này  
 	
@@ -28,8 +29,8 @@ Bài tóm tắt về OOP theo 5W1H
 5. When?
    - Sử dụng OOP khi nào?
 	Có một hoạt động phức tạp bao gồm sự phụ thuộc giữa các hoạt động và nhu cầu hiển thị rõ ràng các trạng thái ứng dụng khác nhau .  Điều này thường thích hợp cho việc khởi động và 		tắt ứng dụng. 
-	Các phần mà phải yêu cầu sâu đên hệ điều hành của máy 
-	Các phần mềm có nhiều modul gần giống nhau 
+	Các phần mà phải yêu cầu sâu đến hệ điều hành của máy 
+	Các phần mềm có nhiều modul gần giống nhau,... 
 
 6. How?
    - OOP làm như nào để giải quyết bài toán 
@@ -39,5 +40,5 @@ Bài tóm tắt về OOP theo 5W1H
    -Vận dụng như thế nào :
 	
 	Xác định các đối tượng cho bài toán: đặc biệt là các đối tượng có liên quan đến nhau 
-   	Xác định thuộc tính, phương thức cho lớp (trong công nghệ phần mềm )
-   	Xác định mối quan hệ giữa các lớp (trong công nghệ phần mềm )
+   	Xác định thuộc tính, phương thức cho lớp tránh các trường hợp phải viết lại những cái giống nhau 
+   	Xác định mối quan hệ giữa các lớp 
