@@ -12,33 +12,26 @@ Bài tóm tắt về OOP theo 5W1H
 	Tính trừu tượng
 	Tính đa hình
 
-2. Why?
-   	- Sử dụng để tăng năng suất code của phần mềm
-	- Giảm những phần giống nhay trong code
-	- Giúp dễ quản lí code và mở rộng các tính năng phần mềm  vì các cấu trúc của modul rõ ràng
-	- Vân vân  
+2. Why? Tại sao  OOP quan trọng trong lập trình?
+   	OOP cho phép sự rõ ràng trong lập trình do đó cho phép đơn giản hóa trong việc giải quyết các vấn đề phức tạp (tính trừu tượng)
+	Mã có thể được tái sử dụng thông qua kế thừa do đó giảm sự dư thừa (Tính kế thừa)
+	Dữ liệu và mã được ràng buộc với nhau bằng cách đóng gói OOP cho phép ẩn dữ liệu, do đó, dữ liệu riêng tư được giữ bí mật (tính đống gói)
+   	Các vấn đề có thể được chia thành các phần khác nhau khiến đơn giản để giải quyết Khái niệm đa hình mang lại sự linh hoạt cho chương trình bằng cách cho phép các thực thể có nhiều 	dạng( đa hình)
 
-
-
-3. Where?
-   Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python… đều hỗ trợ OOP.
-4. Who?
-       Các lập trình viên hầu hêt phải nắm vững khái niệm này  
-	
-
-5. When?
+3. When?
    - Sử dụng OOP khi nào?
 	Có một hoạt động phức tạp bao gồm sự phụ thuộc giữa các hoạt động và nhu cầu hiển thị rõ ràng các trạng thái ứng dụng khác nhau .  Điều này thường thích hợp cho việc khởi động và 		tắt ứng dụng. 
-	Các phần mà phải yêu cầu sâu đến hệ điều hành của máy 
-	Các phần mềm có nhiều modul gần giống nhau,... 
+	-Các Modul cơ bản trong 1 project có thể tái sử dụng lại ở project khác (ví dụ như đăng nhập , đăng kí , menu , ..)
 
-6. How?
-   - OOP làm như nào để giải quyết bài toán 
-	OOP tiếp cận bài toán bằng cách xác định các đối tượng có thể xuất hiện trong bài toán, xác định thuộc tính, mối quan hệ giữa các đối tượng
-	Giải quyết bài toán bằng cách cho các đối tượng tương tác với nhau
-	OOP giải quyết bài toán gián tiếp qua hành động của các đối tượng
-   -Vận dụng như thế nào :
+        - Khi việc bảo trì (phát triển, thay đổi  )được thực hiện tần suất lớn và quy mô lớn. Hay là dự án cần bổ sung thêm người , người mới vào có thể không cần hiểu toàn bộ dự án mà vẫn 	có thể làm modul của mình được  
+4. Where? Sử dụng OOP trong ngôn ngữ nào 
+  	 Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python… đều hỗ trợ OOP.
+5. Who?
+       Các lập trình viên hầu hêt phải nắm vững khái niệm này  
 	
-	Xác định các đối tượng cho bài toán: đặc biệt là các đối tượng có liên quan đến nhau 
-   	Xác định thuộc tính, phương thức cho lớp tránh các trường hợp phải viết lại những cái giống nhau 
-   	Xác định mối quan hệ giữa các lớp 
+6. How?
+  	
+     -Làm như nào để mô tả một lớp kế thừa theo classical OOP ?
+ 	ta có bài toán như sau : Cần xây dựng 1 trang web quản lí giải vô địch bóng đá trong đó có quản lí 2 người Quản Trị , Và Quản Lí Nhân Sự. Cả 2 người này đêu cần phải đăng   	  		nhập vào hệ thống sau đó có có được quyền khác nhau .Như vậy ta sẽ để xuất lớp chung là NguoiDung có thuộc tính là User, PassWord. Quản Trị   kế thừa từ lớp Ngươi Dùng và có 
+	thêm các phương thức Xem Bảng Xếp Hạng , Cập Nhập kết quả . Còn lớp Quản Lí Nhan Sự sẽ có phương thức khác như Cập Nhập tính lương cho các nhân viên của toàn hệ thống.
+     
