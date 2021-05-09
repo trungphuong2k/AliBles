@@ -1,0 +1,120 @@
+body{
+    background: #FFFFFF;
+    padding: 75px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font :none;
+}
+ul{
+    list-style-type: none;
+}
+.flashMessage-list{
+    display: flex;
+}
+.flash-item{
+    padding: 40px;
+    background-color:white;
+    margin: 0 25px;
+    text-align: center;
+    /* box-shadow: 0 0 4px 4px rgb(red, green, blue); */
+}
+.flash__success{
+    
+    /* width: 230px;
+    height: 230px;
+    left: calc(50% - 230px/2 + 0.5px);
+    top: calc(50% - 230px/2 - 139px);
+    background: linear-gradient(155.15deg, #57FF90 7.77%, #00D354 90.78%);
+    opacity: 0.3;
+    filter: blur(200px); */
+}
+.flash--title{
+    width: 327px;
+    height: 72px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.flash-desc span{
+    font-weight: 800;
+}
+
+.flash__actionsheet{
+    height: 497px;
+    width: 375px;
+    left: 0px;
+    background: rgba(245, 246, 247, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    top: 336px;
+    bottom: -21px;
+    border-radius: 40px 40px 0px 0px
+
+}
+.flash-desc{
+    position: static;
+    width: 327px;
+    height: 75px;
+    left: 0px;
+    top: 88px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 16px 24px 24px;
+}
+.btn{
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+    border:2px;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+    
+    margin: 24px 48.5px 50px;
+   
+    position: static;
+    box-shadow: 0px 22px 40px -16px rgba(20, 220, 97, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /* cursor: ; */
+
+}
+.btn--Viewyourpost{
+    background-color : #14DC61;
+    color: white;
+}
+.btn--Return{
+    background-color : #DC1414;
+    color: white;
+    
+    box-shadow: 0px 22px 40px -16px rgba(220, 20, 20, 0.4);
+}
+.flash__home{
+    width: 135px;
+    height: 5px;
+    left: calc(50% - 135px/2);
+    bottom: 8px;
+    background: #000000;
+    border-radius: 100px;
+    
+    margin: 21px 120px 8px;
+}
+.flash__shareSocial i{
+    margin : 0.5rem;
+}
