@@ -10,6 +10,13 @@ body{
 ul{
     list-style-type: none;
 }
+li{
+    height: 812px;
+    width: 375px;
+
+    border-radius: 2px;
+
+}
 .flashMessage-list{
     display: flex;
 }
@@ -20,17 +27,35 @@ ul{
     text-align: center;
     /* box-shadow: 0 0 4px 4px rgb(red, green, blue); */
 }
-.flash__success{
-    
-    /* width: 230px;
-    height: 230px;
-    left: calc(50% - 230px/2 + 0.5px);
-    top: calc(50% - 230px/2 - 139px);
-    background: linear-gradient(155.15deg, #57FF90 7.77%, #00D354 90.78%);
-    opacity: 0.3;
-    filter: blur(200px); */
+.flash__statusbar{
+   
+    width: 375px;
+    left:44px;
+    border-radius: 0px;
+    font-size: 16px;
+    margin:  0rem 0rem -6rem 0rem 
 }
-.flash--title{
+
+.flash__statusbar-time{
+    margin : 0rem 12rem 0rem 0rem 
+}
+.flash__success {
+    
+    margin:  0rem 0rem -23rem 0rem 
+}
+
+.flash__actionsheet{
+    z-index: 2;
+    height: 430px;
+    width: 375px;
+    left: 0px;
+    background: rgba(245, 246, 247, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    border-radius: 40px 40px 0px 0px
+
+}
+.flash__title{
     width: 327px;
     height: 72px;
     font-family: 'Space Grotesk';
@@ -42,23 +67,10 @@ ul{
     text-align: center;
 
 }
-.flash-desc span{
+.flash__desc span{
     font-weight: 800;
 }
 
-.flash__actionsheet{
-    height: 497px;
-    width: 375px;
-    left: 0px;
-    background: rgba(245, 246, 247, 0.6);
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(30px);
-    /* Note: backdrop-filter has minimal browser support */
-    top: 336px;
-    bottom: -21px;
-    border-radius: 40px 40px 0px 0px
-
-}
 .flash-desc{
     position: static;
     width: 327px;
@@ -105,6 +117,16 @@ ul{
     
     box-shadow: 0px 22px 40px -16px rgba(220, 20, 20, 0.4);
 }
+.flash__statusbar{
+    width: 327px;
+    height: 92.31px;
+}
+
+.flash__shareSocial i{
+    margin : 0.5rem;
+    
+}
+
 .flash__home{
     width: 135px;
     height: 5px;
@@ -112,9 +134,5 @@ ul{
     bottom: 8px;
     background: #000000;
     border-radius: 100px;
-    
     margin: 21px 120px 8px;
-}
-.flash__shareSocial i{
-    margin : 0.5rem;
 }
