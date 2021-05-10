@@ -23,26 +23,27 @@ li{
 .flash-item{
     padding: 40px;
     background-color:white;
-    margin: 0 25px;
+    margin: 0px 25px;
     text-align: center;
     /* box-shadow: 0 0 4px 4px rgb(red, green, blue); */
 }
 .flash__statusbar{
    
     width: 375px;
-    left:44px;
-    border-radius: 0px;
+    height: 44px;
+    
     font-size: 16px;
-    margin:  0rem 0rem -6rem 0rem 
+    margin-bottom: -6rem ;
 }
 
 .flash__statusbar-time{
-    margin : 0rem 12rem 0rem 0rem 
+    margin-right: 12.5rem;
 }
 .flash__success {
     
-    margin:  0rem 0rem -23rem 0rem 
+    margin-bottom:  -23rem; 
 }
+
 
 .flash__actionsheet{
     z-index: 2;
@@ -52,26 +53,26 @@ li{
     background: rgba(245, 246, 247, 0.6);
     border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(30px);
-    border-radius: 40px 40px 0px 0px
-
+    border-radius: 40px 40px 0px 0px;
+    text-align: center;
 }
 .flash__title{
     width: 327px;
     height: 72px;
-    font-family: 'Space Grotesk';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: bold;
-    line-height: 36px;
+    font-weight: 900;
+    line-height: 200%;
     letter-spacing: 1px;
-    text-align: center;
+    margin: 16px 24px 24px;
 
 }
 .flash__desc span{
     font-weight: 800;
 }
 
-.flash-desc{
+.flash__desc{
     position: static;
     width: 327px;
     height: 75px;
