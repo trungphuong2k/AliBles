@@ -1,0 +1,56 @@
+CƠ SƠ DỮ LIỆU 
+	-Thông tin là gì : Là những gì cho ta tăng độ hiểu biết về đối tượng nào đó( hay nói cách khác là làm giảm độ mù mờ 1 sự kiện đối tượng  )
+	 	Ví dụ : Ta có một trang web bán hàng và có các thônng tin về 1  sản phẩm A mới có số lương ban đầu là 100, tồn kho là 41 
+			=> Cho biết số lượng hiện tại của sản phẩm này trong công ty  
+			+ Ta lại có thông tin là sản phẩm này thì đứng top đầu trong danh sách các sản phẩm của công ty 
+			=> Ta có thể tạm suy luận là sản phẩm  -> Khách hàng tiềm năng ,cần đẩy mạnh quảng cáo thêm sản phâm hoặc tập trung phát triển sản phẩm này 
+	
+	-Cơ sở dữ liệu là gì:
+			+Cơ sở dữ liệu tập hợp dữ liệu (văn bản, âm thanh, hình ảnh, số liệu, v.v.) của một hay nhiều lĩnh vực ứng dụng, được tổ chức theo một 
+	  		     cấu trúc nhất định, sao cho các chương trình máy tính có thể khai thác, nhằm phục vụ nhiều người sử dụng.
+
+			+Việc thiết kế  cơ sở dữ liệu sao  việc rất quan trọng, nó quyết định đến sự thành công hay thất bại của ứng dụng nếu thiết kế cơ sở dữ liệu 
+			 không logic, tối ưu sẽ dẫn đến việc dung lượng lưu trữ lớn, các lập trình viên sẽ khó lấy dữ liệu ra,hoặc thơi gian lấy dữ liệu tư CSDL sẽ lâu 
+			  không kịp đáp ứng cho người dùng ứng dụng,.... 
+				
+
+	-Hệ quản trị cơ sở dữ liệu: được định nghĩa là một ứng dụng phần mềm máy tính, một hệ thống được thiết kế, sử dụng để tạo và quản lý một khối lượng dữ liệu
+	 nhất định trong cơ sở dữ liệu một cách tự động và có trật tự. Nhiệm vụ của chúng là cung cấp cho người sử dụng, lập trình viên và các công ty thiết kế website
+	 một giải pháp thích hợp để họ có thể truy xuất, kiểm soát, cập nhập và tạo dữ liệu.
+	
+	-Các mức  thể hiện cơ sở dữ liệu :+Mức khunh hình: Là phần dữ liệu trong cơ sở dữ liệu mà chúng ta cần sử dụng, chỉ quan tâm đến phần chúng ta cần thôi. (mức dành cho ngươi dùng sử 							dụng)
+
+					  +Mức Logic ( hay là mức khái niệm):  Mức này sẽ liệu kê được những gì được lưu trong CSDL và liên kết giữa chúng như thế nào
+					   dữ liệu thì không thể đứng đơn lẻ được
+					  +Mức vật lý: thiết bị cứng để lưu trữ dữ liệu, hiểu đơn giản là phần cứng như ổ đĩa. 
+
+	-Tại sao cần cơ sở dữ liệu :Dữ liệu thì thường rất lớn nên nó yêu cầu phải tổ chức một cách hợp lí để 
+					+Lưu trữ thông tin có hệ thống.
+					+Đảm bảo an toàn dữ liệu.
+					+Có thể phục vụ nhiều người cùng truy cập tại 1 thời điểm.
+					+Quản lý dữ liệu dễ dàng: tránh trùng lặp dữ liệu=> tốn bộ nhớ . 
+					
+					+Lưu dữ liệu thành dạng các bảng(table)hoặc Collection   -> xem dữ liệu dễ dàng hơn, lấy dữ liệu nhanh hơn , hiểu hơn về sự thay đổi 
+					các đối tượng . 
+					
+					+Tách biệt giữa các chương trình.
+					+Có thuộc tính ACID.
+	-ACID là gì : Transaction là một tiến trình xử lí có điểm dầu và điểm kết thúc , được chia nhỏ thành các operation.Chỉ cần 1 operation thất bại thì cả tiếng trình 
+			đó thất bại. 
+			+Atomicity:(Tính nguyên tử) :một tiến trình chỉ có thể  hoặc thành công hoặc là kết thúc 
+			+Consistency:(Tính nhất quán ): Cái này em chưa hiểu lắm 
+			+Isolation:(độc lập )Các transaction có khả năng hoạt động một cách độc lập và không liên quan đến nhau.
+			+Durability: Một transaction được thực hiện thành công phải được lưu vào database ở bất cứ trường hợp nào 
+
+
+	-Các loại liên kết cơ sở dữ liệu :1-1: Một đối tượng này thì chỉ suy ra đối tượng còn lại 
+					1-n :Một đối tượng này thì có thể suy ra có nhiều đối tượng còn lại 
+					N-N : quan hệ này thường được tách ra để trở thành 1--n để dễ quản lí hơn 
+	-Các khái niệm cơ bản trong cơ sở dữ liệu:
+						+Khóa chính : là thuộc tính để  phân biệt các bản ghi duy nhất trong 1 bảng . 1 Bảng có thể có nhiều khóa chính 
+  						+Khóa ngoại :là thuộc tính là khóa chính của bảng khác của bảng hiện tại  . 1 Bảng có thể có nhiều khóa  ngoại 
+						+thuộc tính: 
+						+Thuộc tính dẫn xuất: là thuộc tính có thể suy ra từ các thuộc tính khác 
+						+Bảng là toàn bộ các bản ghi về 1 đối tượng ví du: User, 
+						+bản  ghi : 1 dòng của bảng 
+ 
