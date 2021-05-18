@@ -1,0 +1,282 @@
+body{
+    
+    font-family: 'Heebo', sans-serif;
+    
+    align-items: center;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.home-bar{
+    margin: 1rem;
+    
+}
+.nav-links{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 50rem;
+    
+    
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a
+{
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.bar{
+    background-color: ;
+    display: none; 
+    
+}
+
+.bar div{
+    width: 25px;
+    height: 2px;
+    background-color:rgb(19, 18, 18);
+    margin: 2px;
+   
+}
+.home-intro{
+
+    margin: 5rem 4rem 3rem;
+    display: flex;
+
+}
+.home-intro label{
+   
+    margin-left: 5rem;
+}
+.home-intro__des p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+.intro-des__title{
+       
+        font-size: 44px;
+        line-height: 60px;
+        color: #21243D;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 60px;
+      
+}
+
+.btn-download{     
+    
+    width: 210px;
+    font-size: 20px;
+    display: block;
+    padding: 18px;
+    border:2px;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+    
+    margin: 24px 70px  24px ;
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color : #FF6464;;
+   
+}
+.home-post{
+    padding: 0rem 4rem 0em; 
+    background-color: #EDF7FA;
+    font-size: 20px;
+   
+    
+}
+
+
+.home-post__content-btn{
+    font-size: 22px;
+    display: flex;
+    
+}
+.home-post__content-btn p{
+    font-size: 16px;
+    margin-left: 50em;
+   
+}
+
+
+.home-post__content{
+    display: flex;
+    
+}
+
+.home-post__content1{
+    flex-wrap: wrap;
+    flex:1;
+    margin: 25px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 0.5em;
+
+}
+
+.home-post__content1 h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #21243D;
+}
+.home-post__content1 p{
+    padding-top: 1em;
+}
+.home-feature{
+    margin: 5rem 4rem 3rem;
+}
+.home-feature__works{
+    display: flex;
+}
+.home-feature hr
+{
+    margin-bottom: 3rem;
+}
+.home-feature h3{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+
+}
+.home-feature__works label{
+    margin-right: 2rem;
+    
+}
+.works__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 1rem;
+
+}
+.work__year{
+    width: 62px;
+    height: 25px;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #142850;
+    margin-right: 2rem;
+}
+.home-feature__works__des span{
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.home-feature__works__des p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    margin-top: 1rem;
+}
+.home-footer{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+.home-footer__icon i {
+    font-size: 30px;
+    margin : 0.5rem;
+}
+@media screen and (max-width:1204px){
+   .nav-links{
+       width: 60%;
+   }
+   .home-post__content-btn p{
+    display: none;
+
+   }
+}
+@media screen and (max-width:768px) {
+    
+    .bar{
+        display:block;
+        
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    .home-intro{
+        flex-direction: column;
+       
+    }
+    .home-intro label{
+        margin-left: 0rem;
+    }
+    .home-intro__des{
+        text-align: center;
+    }
+
+    .intro-des__title{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        
+        color: #21243D;
+        margin: 34px 32px 21px;
+    }
+    
+    
+    .home-post{
+        padding: 0.2rem;
+        width: 100%;
+    }
+    .home-post__content{
+        flex-direction: column;
+       
+    }
+    
+    .home-post__content-btn p{
+        display: none;
+   
+    }
+    .home-feature{
+        align-items: center;
+    }
+    .home-feature__works{
+        flex-direction: column;
+    }
+    .home-feature__works--content2{
+        display: none;
+    }
+    .home-feature hr{
+        display: none;
+    }
+}
