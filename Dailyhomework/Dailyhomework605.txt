@@ -8,3 +8,4 @@ Trong gitflow, khi một nhánh hotfix được tạo, sau khi fix xong lỗi th
 	
 		+ Merge vào develop vì nếu chỉ sửa ở nhánh master mà không cập nhập vào nhánh develop, nhánh  develope sẽ không biết là đã đã sửa lỗi đấy ,  
 		do đó các bản release sau vẫn có những lỗi đấy mà chưa được cập nhập  
+Cac thanh phan của git flow: master, canary, statging , develope
