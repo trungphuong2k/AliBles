@@ -2,5 +2,3 @@ Giả sử branchA có lịch sử commit có mã commit: 1 - 2. BranchB đượ
 
 	Khi Do lich sử  commit của A sẽ là 1-2-3-4 . Nếu mà có confict thì sẽ phải add,commit  lại file bị confict rồi mới được merge 
 	Khi đó lịch sử commit sẽ là 1-2 -3 -4 -"commitfileconfict"
-
-
