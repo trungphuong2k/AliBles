@@ -20,9 +20,9 @@ Câu 2: Hãy phân biệt Tracked file và Untracked file trong git? *
 			ngược lại : git add <ten file > 
 
 Câu  3: Hãy nêu ý nghĩa 3 trạng thái của file trong git (3 stages in git). Các lệnh sử dụng trong Git để chuyển các trạng thái?
-
+	
 	Modified: là file gốc (ở trên máy chủ ), việc sửa đổi trong file này không làm thay đổi trên git. 
-		Muốn nó thay đổi trên git thì phải sd : git add .  dau đó  git commit -m "message"
+		Muốn nó thay đổi trên git thì phải sd : git add <ten file > dau đó  git commit -m "message"
 
 	Staged: Là  file mà đã sẵn  sàng để up lên git . Để nó hiện trên git thì phải sd : git commit -m "message"
 
